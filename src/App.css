@@ -1,0 +1,13 @@
+.master {
+    display: inline-block;
+}
+
+.for-dis {
+    visibility: hidden;
+    z-index: 1;
+}
+
+.for-app:hover + .for-dis,
+.master:hover .for-dis {
+    visibility: visible;
+}
